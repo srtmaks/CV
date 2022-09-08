@@ -1,0 +1,81 @@
+.letter {
+  height: 880px;
+  width: 630px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  height: 20%;
+  background-color: rgba(55, 97, 147, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contacts-list {
+  height: 40%;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts-logo {
+  width: 15px;
+  filter: invert(100%);
+  margin-right: 2px;
+}
+
+.bodier {
+  height: 77%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.date {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.receiver {
+  margin-bottom: 35px;
+}
+
+.receiver-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin-bottom: 35px;
+}
+
+.letter-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  height: 3%;
+  background-color: rgba(55, 97, 147, 1);
+}
